@@ -1,79 +1,62 @@
-## Portfolio
+# Smart Food Management System
 
-### Hello, I'm Sejal 👋
+A C++-based Food Management System developed as an academic project to apply fundamental concepts of **Data Structures, Algorithms, Object-Oriented Programming, and File Handling**.
 
-I am passionate about leveraging technology to solve real-world problems and making an impact through creative solutions. 
-Here's a glimpse into my journey:  
+## Overview
 
+The Smart Food Management System is a console-based application designed to manage food inventory, customers, orders, and food-related operations.
 
-## 🛠 Projects
+The project focuses on organizing and processing data efficiently using commonly used C++ data structures and programming concepts.
 
-### Smart Food Management System  
+## Key Features
 
-OVERVIEW:  
-A Smart Food Management System (SFMS) utilizes technologies like IoT, 
-AI, and machine learning to optimize food tracking, storage, and consumption.
-It features real-time inventory management, smart refrigeration, waste reduction,
-and AI-driven meal planning. The system tracks expiration dates, reduces food waste,
-and provides personalized meal suggestions based on available ingredients.
-SFMS helps improve efficiency in homes, restaurants, and supermarkets, 
-ensuring fresh food, minimizing waste, and promoting sustainability 
-while enhancing cost savings and convenience for users.
+- Add and manage food items
+- Update and delete food records
+- Search and sort food items
+- Customer registration and management
+- User login and signup
+- Order placement and order queue management
+- Food inventory tracking
+- File-based data storage and backup
+- Food donation, storage, and request management
 
-Technical Stack:  
+## Data Structures Used
 
-- Languages: C++, Java  
-- Algorithms: Dijkstra’s, A*, KMP, Chain Hashing, Graph Traversal (DFS/BFS)
-- Tools: Graphs, DAA Optimization Techniques  
+- **Linked List** – managing food item records
+- **Queue** – managing orders
+- **Deque** – handling order-related operations
+- **Vector** – storing collections of data
+- **Map / Unordered Map** – managing customer and related data
+- **Set** – managing unique data
 
-Impact:  
-A Smart Food Management System (SFMS) significantly reduces food waste, 
-optimizes inventory, and enhances food sustainability. By leveraging IoT,
-AI, and data analytics, it improves food tracking, minimizes spoilage,
-and promotes efficient consumption. SFMS helps users and businesses save
-costs by managing expiration dates, automating reordering, and suggesting
-meals based on available ingredients. Additionally, it promotes healthier
-eating habits and reduces environmental impacts by curbing overproduction and waste.
-Overall, SFMS fosters more efficient, sustainable, and cost-effective food practices
-across households, restaurants, and supply chains.
+## Concepts Applied
 
-## 🚀 Skills  
+- C++ Object-Oriented Programming
+- Pointers
+- Dynamic memory allocation
+- Data structures
+- Searching
+- Sorting
+- File handling
+- Input validation
+- Basic graph representation and traversal
 
-- Proficient in C++, **Java, and **Python.  
-- Strong grasp of Data Structures and Algorithms.  
-- Expertise in problem-solving through advanced DAA techniques.  
-- Experience with project development and team collaboration.  
+## Technical Stack
 
+**Language:** C++
 
-## 🌐 Find Me Online
+**Core Concepts:**  
+C++, Data Structures, Algorithms, OOP, Pointers, Dynamic Memory, File Handling
 
-- [GitHub](https://github.com/SejalHalgekar/SMART-FOOD-MANAGEMENT-SYSTEM-.github.io)
+**C++ Libraries:**  
+`iostream`, `string`, `vector`, `queue`, `deque`,`map`, `unordered_map`, `set`, `algorithm`, 
 
+## Project Structure
 
-## Portfolio Highlights
-
-### 🎯 Topic: 
-
-- DAA (Design and Analysis of Algorithms)  
-- Focus: Algorithmic Problem Solving for smart food management system 
-
-### 📋 Details:
-
-- Course Name: Algorithms Lab 
-- Course Code: 24ECAP202  
-- Name: Sejal .Halgekar 
-- SRN: 02FE23BCS192  
-- Course Instructor: Prof.Vaishali parab
-- University: KLE TECHNOLOGICAL UNIVERSITY
-- Topic: Smart Food Management system
-
----
-
-## 🎨 What Drives Me  
-- 💻 Constantly exploring new technologies and applying them creatively.  
-- 🤝 Helping others grow while improving myself every day.  
-- 📈 Maintaining a stellar GPA of 9.0 in my B.E. in Computer Science & Engineering  program.  
-
----
-
-This portfolio showcases my commitment to pushing boundaries and creatin
+```text
+SMART-FOOD-MANAGEMENT-SYSTEM
+│
+├── src/
+│   └── SmartFoodManagement.cpp
+│
+└── README.md
